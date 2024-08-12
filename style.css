@@ -67,11 +67,16 @@ p, h1, h2, h3, h4, h5, h6 {
 /* -------------- end custom properties -------------- */
 
 /* Base Styles */
-.stat-preview-card {
-  max-width: 23.438rem;
-  width: 100%;
-  background-color: var(--color-primary-bg);
+body {
+  max-width: 100%;
+  width: 90rem;
+  margin: 0 auto;
   padding: 5.5rem 1.5rem;
+  background-color: var(--color-primary-bg);
+
+}
+.stat-preview-card {
+  max-width: 20.438rem;
   margin: 0 auto;
 }
 .image-container img {
@@ -130,22 +135,27 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* Media query for desktop */
 @media (min-width: 768px) {
+  body {
+    padding: 11.063rem 10.313rem;
+
+  }
   .stat-preview-card {
-    max-width: 90rem; 
+    max-width: 100%; 
     display: flex; 
     flex-direction: row; 
+
     /* justify-content: space-between;  */
-    padding: 11.063rem 10.313rem;
-    border: 2px solid orange;
+    border: 2px solid rgb(197, 194, 187);
   }
 
   .image-container {
      order: 2;
-    min-width: 33.75rem;
+    /* min-width: 33.75rem; */
   }
  .image-container img {
     content: url('/images/big-overlay.png'); 
      width: 100%;
+     min-width: 33.75rem;
     height: auto; /* Maintain responsive scaling */
   }
    .content-container {
@@ -153,7 +163,8 @@ p, h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center; 
-    min-width: 35.625rem
+    width: 100%;
+    max-width: 35.625rem;
   }
   .content-container h1 {
     font-size: 2.25rem;
