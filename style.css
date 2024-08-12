@@ -181,11 +181,13 @@ body {
   }
   .content-container p {
     text-align: left;
+    margin-bottom: 0;
   }
-
+  
   .stats-group {
     flex-direction: row; 
     justify-content: flex-start; 
+    margin-top: 4.5rem;
     gap: 2rem;
   }
   footer {

@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/spc-SS.png)
+![](/images/Stats-FE-SS.png)
 
 ### Links
 
