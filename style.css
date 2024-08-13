@@ -153,17 +153,16 @@ body {
     max-width: 100%; 
     display: flex; 
     flex-direction: row; 
+    /* margin-right: 2rem; */
   }
 
   .image-container {
      order: 2;
-    /* min-width: 33.75rem; */
   }
  .image-container img {
     content: url('/images/big-overlay.png'); 
      width: 100%;
-     /* max-width: 33.75rem; */
-    min-height: 27.875rem; 
+    /* min-height: 27.875rem;  */
   }
    .content-container {
     padding: 4.438rem 5.938rem 3.688rem 4.469rem; 
@@ -177,18 +176,30 @@ body {
     font-size: 2.25rem;
     text-align: left;
     margin-bottom: 1.563rem;
+    line-height: 2.75rem;
     padding-top: 0;
   }
   .content-container p {
+    font-size: 0.938rem;
     text-align: left;
+    line-height: 1.563rem;
     margin-bottom: 0;
+    
+  }
+  .stat-preview-content {
+    /* margin-right: 3rem; */
+    padding-right: 2rem;
+    margin-bottom: 0;
+    
   }
   
   .stats-group {
     flex-direction: row; 
     justify-content: flex-start; 
-    margin-top: 4.5rem;
-    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
+    gap: 3rem;
+
   }
   footer {
   position: fixed;
